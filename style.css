@@ -1,0 +1,137 @@
+img-about {
+    height: 50px;
+}
+
+.img-ser {
+    height: 80px;
+    background-color: aliceblue;
+}
+
+.container-caro {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.proj-img {
+    height: 100px;
+}
+
+.card>img {
+    height: 13rem;
+}
+
+.img-con {
+    height: 30px;
+}
+
+.jumbo {
+    background-color: aliceblue;
+}
+
+* {
+    background-color: aliceblue;
+}
+
+body {
+    background-color: aliceblue;
+}
+
+.container-head {
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    text-align: center;
+    background-color: aliceblue;
+}
+
+hr {
+    margin: 12px 0;
+    border: 0;
+    text-align: center;
+
+    &:before {
+        content: "\2022 \2022 \2022";
+        font-size: 50px;
+        color: aqua;
+    }
+}
+
+h1 {
+    font-family: 'Dosis', sans-serif;
+    font-weight: bolder;
+}
+
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Inter', sans-serif;
+}
+
+p {
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.st {
+    font-family: 'Yatra One', cursive;
+    font-weight: 200;
+}
+
+.flex-services {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+@media (max-width: 600px) {
+    .flex-services {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        gap: 2rem;
+    }
+}
+
+.img-services {
+    height: 80px;
+}
+
+.container-cards {
+    margin-left: 40px;
+}
+
+@media (max-width : 1000px) {
+    .container-cards {
+        margin-left: 0px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        gap: 2rem;
+    }
+}
+
+
+@media (max-width : 600px) {
+    .cards {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 2rem;
+    }
+}
+
+
+.nav-pills {
+    --bs-nav-pills-border-radius: var(--bs-border-radius);
+    --bs-nav-pills-link-active-color: var(--bs-link-hover-color);
+    --bs-nav-pills-link-active-bg: aliceblue;
+}
