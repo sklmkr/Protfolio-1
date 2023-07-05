@@ -1,0 +1,93 @@
+img-about {
+    height: 50px;
+}
+
+.img-ser {
+    height: 80px;
+    background-color: aliceblue;
+}
+
+.container-flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 10rem;
+}
+
+.container-caro {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.proj-img {
+    height: 100px;
+}
+
+.card>img {
+    height: 13rem;
+}
+
+.img-con {
+    height: 30px;
+}
+
+.jumbo {
+    background-color: aliceblue;
+}
+
+* {
+    background-color: aliceblue;
+}
+
+body {
+    background-color: aliceblue;
+}
+
+.container-head {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    background-color: aliceblue;
+}
+
+hr {
+    margin: 12px 0;
+    border: 0;
+    text-align: center;
+
+    &:before {
+        content: "\2022 \2022 \2022";
+        font-size: 50px;
+        color: aqua;
+    }
+}
+
+h1 {
+    font-family: 'Dosis', sans-serif;
+    font-weight: bolder;
+}
+
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Inter', sans-serif;
+}
+
+p {
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.st {
+    font-family: 'Yatra One', cursive;
+    font-weight: 200;
+}
+
+
+.nav-pills {
+    --bs-nav-pills-border-radius: var(--bs-border-radius);
+    --bs-nav-pills-link-active-color: var(--bs-link-hover-color);
+    --bs-nav-pills-link-active-bg: aliceblue;
+}
